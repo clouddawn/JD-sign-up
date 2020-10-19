@@ -1,0 +1,30 @@
+body {
+    background-color: #eeeeee;
+}
+table {
+    width: 990px;
+    margin: 0px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+tr {
+    width: 100%;
+}
+.headline {
+    height: 30px;
+    text-align: left;
+    background: #cccccc;
+}
+.left {
+    height: 60px;
+    text-align: right;
+    width: 300px;
+}
+.right {
+    height: 60px;
+    text-align: left;
+}
+#submit {
+    display: block;
+    margin: 0 auto;
+}

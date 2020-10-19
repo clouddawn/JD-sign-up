@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="JD.css">
+</head>
+<body>
+    <form action="demo.php" method="GET"></form>
+    <table>
+        <tr>         
+            <tr>
+                <td colspan="2" class="headline">账户信息</td>
+            </tr>
+            <tr>
+                <td class="left">用户名：</td>
+                <td class="right"><input type="text" name="user-name"></td>
+            </tr>
+            <tr>
+                <td class="left">请设置密码：</td>
+                <td class="right"><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td class="left">请确认密码：</td>
+                <td class="right"><input type="password" name="r-password"></td>
+            </tr>      
+        </tr>
+        <tr>
+            <tr>
+                <td colspan="2" class="headline">公司信息</td>
+            </tr>
+            <tr>
+                <td class="left">公司名称：</td>
+                <td class="right">
+                    <input type="text" name="company">
+                </td>
+            </tr>
+            <tr>
+                <td class="left">公司所在地：</td>
+                <td class="right">
+                    <select>
+                        <option>请选择</option>
+                        <option>北京</option>
+                        <option>上海</option>
+                        <option>广州</option>
+                        <option>深圳</option>
+                    </select>
+                    <select>
+                        <option>请选择</option>
+                        <option>北京</option>
+                        <option>上海</option>
+                        <option>广州</option>
+                        <option>深圳</option>
+                    </select>
+                    <select>
+                        <option>请选择</option>
+                        <option>北京</option>
+                        <option>上海</option>
+                        <option>广州</option>
+                        <option>深圳</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="left">公司地址：</td>
+                <td class="right">
+                    <input type="text" name="address">
+                </td>
+            </tr>
+            <tr>
+                <td class="left">购买类型/用途：</td>
+                <td class="right">
+                    <input type="checkbox" name="buy-type">II设备
+                    <input type="checkbox" name="buy-type">数码通讯
+                    <input type="checkbox" name="buy-type">办公用品耗材
+                    <input type="checkbox" name="buy-type">大家电
+                    <input type="checkbox" name="buy-type">项目合作-政府采购
+                    <input type="checkbox" name="buy-type">礼品
+                </td>
+            </tr>
+            <tr>
+                <td class="left">推荐人手机：</td>
+                <td class="right">
+                    <input type="number" name="phone">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input id="submit" type="submit">
+                </td>
+           </tr>
+    </table>
+    
+</body>
+</html>
